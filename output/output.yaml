@@ -40,8 +40,8 @@ refactored_py: !!python/object/apply:ast.Module
           state:
             col_offset: 4
             end_col_offset: 14
-            end_lineno: 3
-            lineno: 3
+            end_lineno: 2
+            lineno: 2
             targets:
             - !!python/object/apply:ast.Name
               args:
@@ -51,9 +51,9 @@ refactored_py: !!python/object/apply:ast.Module
                 col_offset: 4
                 ctx: &id001 !!python/object/apply:ast.Store []
                 end_col_offset: 8
-                end_lineno: 3
+                end_lineno: 2
                 id: num1
-                lineno: 3
+                lineno: 2
             type_comment: null
             value: !!python/object/apply:ast.Constant
               args:
@@ -62,9 +62,9 @@ refactored_py: !!python/object/apply:ast.Module
               state:
                 col_offset: 11
                 end_col_offset: 14
-                end_lineno: 3
+                end_lineno: 2
                 kind: null
-                lineno: 3
+                lineno: 2
                 value: 100
         - !!python/object/apply:ast.Assign
           args:
@@ -74,8 +74,8 @@ refactored_py: !!python/object/apply:ast.Module
           state:
             col_offset: 4
             end_col_offset: 14
-            end_lineno: 4
-            lineno: 4
+            end_lineno: 3
+            lineno: 3
             targets:
             - !!python/object/apply:ast.Name
               args:
@@ -85,9 +85,9 @@ refactored_py: !!python/object/apply:ast.Module
                 col_offset: 4
                 ctx: *id001
                 end_col_offset: 8
-                end_lineno: 4
+                end_lineno: 3
                 id: num2
-                lineno: 4
+                lineno: 3
             type_comment: null
             value: !!python/object/apply:ast.Constant
               args:
@@ -96,9 +96,9 @@ refactored_py: !!python/object/apply:ast.Module
               state:
                 col_offset: 11
                 end_col_offset: 14
-                end_lineno: 4
+                end_lineno: 3
                 kind: null
-                lineno: 4
+                lineno: 3
                 value: 200
         - !!python/object/apply:ast.If
           args:
@@ -113,8 +113,8 @@ refactored_py: !!python/object/apply:ast.Module
               state:
                 col_offset: 8
                 end_col_offset: 38
-                end_lineno: 7
-                lineno: 7
+                end_lineno: 6
+                lineno: 6
                 value: !!python/object/apply:ast.Call
                   args:
                   - null
@@ -129,13 +129,13 @@ refactored_py: !!python/object/apply:ast.Module
                       state:
                         col_offset: 14
                         end_col_offset: 37
-                        end_lineno: 7
+                        end_lineno: 6
                         kind: null
-                        lineno: 7
+                        lineno: 6
                         value: num1 is equal to num2
                     col_offset: 8
                     end_col_offset: 38
-                    end_lineno: 7
+                    end_lineno: 6
                     func: !!python/object/apply:ast.Name
                       args:
                       - null
@@ -144,15 +144,15 @@ refactored_py: !!python/object/apply:ast.Module
                         col_offset: 8
                         ctx: &id002 !!python/object/apply:ast.Load []
                         end_col_offset: 13
-                        end_lineno: 7
+                        end_lineno: 6
                         id: print
-                        lineno: 7
+                        lineno: 6
                     keywords: []
-                    lineno: 7
+                    lineno: 6
             col_offset: 4
             end_col_offset: 38
-            end_lineno: 7
-            lineno: 6
+            end_lineno: 6
+            lineno: 5
             orelse: []
             test: !!python/object/apply:ast.Compare
               args:
@@ -170,11 +170,11 @@ refactored_py: !!python/object/apply:ast.Module
                     col_offset: 15
                     ctx: *id002
                     end_col_offset: 19
-                    end_lineno: 6
+                    end_lineno: 5
                     id: num2
-                    lineno: 6
+                    lineno: 5
                 end_col_offset: 19
-                end_lineno: 6
+                end_lineno: 5
                 left: !!python/object/apply:ast.Name
                   args:
                   - null
@@ -183,10 +183,10 @@ refactored_py: !!python/object/apply:ast.Module
                     col_offset: 7
                     ctx: *id002
                     end_col_offset: 11
-                    end_lineno: 6
+                    end_lineno: 5
                     id: num1
-                    lineno: 6
-                lineno: 6
+                    lineno: 5
+                lineno: 5
                 ops:
                 - !!python/object/apply:ast.NotEq []
         - !!python/object/apply:ast.If
@@ -202,8 +202,8 @@ refactored_py: !!python/object/apply:ast.Module
               state:
                 col_offset: 8
                 end_col_offset: 42
-                end_lineno: 11
-                lineno: 11
+                end_lineno: 10
+                lineno: 10
                 value: !!python/object/apply:ast.Call
                   args:
                   - null
@@ -218,13 +218,13 @@ refactored_py: !!python/object/apply:ast.Module
                       state:
                         col_offset: 14
                         end_col_offset: 41
-                        end_lineno: 11
+                        end_lineno: 10
                         kind: null
-                        lineno: 11
+                        lineno: 10
                         value: num1 is not equal to num2
                     col_offset: 8
                     end_col_offset: 42
-                    end_lineno: 11
+                    end_lineno: 10
                     func: !!python/object/apply:ast.Name
                       args:
                       - null
@@ -233,15 +233,15 @@ refactored_py: !!python/object/apply:ast.Module
                         col_offset: 8
                         ctx: *id002
                         end_col_offset: 13
-                        end_lineno: 11
+                        end_lineno: 10
                         id: print
-                        lineno: 11
+                        lineno: 10
                     keywords: []
-                    lineno: 11
+                    lineno: 10
             col_offset: 4
             end_col_offset: 42
-            end_lineno: 11
-            lineno: 8
+            end_lineno: 10
+            lineno: 7
             orelse:
             - !!python/object/apply:ast.Expr
               args:
@@ -249,8 +249,8 @@ refactored_py: !!python/object/apply:ast.Module
               state:
                 col_offset: 8
                 end_col_offset: 38
-                end_lineno: 9
-                lineno: 9
+                end_lineno: 8
+                lineno: 8
                 value: !!python/object/apply:ast.Call
                   args:
                   - null
@@ -265,13 +265,13 @@ refactored_py: !!python/object/apply:ast.Module
                       state:
                         col_offset: 14
                         end_col_offset: 37
-                        end_lineno: 9
+                        end_lineno: 8
                         kind: null
-                        lineno: 9
+                        lineno: 8
                         value: num1 is equal to num2
                     col_offset: 8
                     end_col_offset: 38
-                    end_lineno: 9
+                    end_lineno: 8
                     func: !!python/object/apply:ast.Name
                       args:
                       - null
@@ -280,11 +280,11 @@ refactored_py: !!python/object/apply:ast.Module
                         col_offset: 8
                         ctx: *id002
                         end_col_offset: 13
-                        end_lineno: 9
+                        end_lineno: 8
                         id: print
-                        lineno: 9
+                        lineno: 8
                     keywords: []
-                    lineno: 9
+                    lineno: 8
             test: !!python/object/apply:ast.Compare
               args:
               - null
@@ -301,11 +301,11 @@ refactored_py: !!python/object/apply:ast.Module
                     col_offset: 15
                     ctx: *id002
                     end_col_offset: 19
-                    end_lineno: 8
+                    end_lineno: 7
                     id: num2
-                    lineno: 8
+                    lineno: 7
                 end_col_offset: 19
-                end_lineno: 8
+                end_lineno: 7
                 left: !!python/object/apply:ast.Name
                   args:
                   - null
@@ -314,10 +314,10 @@ refactored_py: !!python/object/apply:ast.Module
                     col_offset: 7
                     ctx: *id002
                     end_col_offset: 11
-                    end_lineno: 8
+                    end_lineno: 7
                     id: num1
-                    lineno: 8
-                lineno: 8
+                    lineno: 7
+                lineno: 7
                 ops:
                 - !!python/object/apply:ast.Eq []
         - !!python/object/apply:ast.If
@@ -333,8 +333,8 @@ refactored_py: !!python/object/apply:ast.Module
               state:
                 col_offset: 8
                 end_col_offset: 42
-                end_lineno: 13
-                lineno: 13
+                end_lineno: 12
+                lineno: 12
                 value: !!python/object/apply:ast.Call
                   args:
                   - null
@@ -349,13 +349,13 @@ refactored_py: !!python/object/apply:ast.Module
                       state:
                         col_offset: 14
                         end_col_offset: 41
-                        end_lineno: 13
+                        end_lineno: 12
                         kind: null
-                        lineno: 13
+                        lineno: 12
                         value: num1 is greater than num2
                     col_offset: 8
                     end_col_offset: 42
-                    end_lineno: 13
+                    end_lineno: 12
                     func: !!python/object/apply:ast.Name
                       args:
                       - null
@@ -364,15 +364,15 @@ refactored_py: !!python/object/apply:ast.Module
                         col_offset: 8
                         ctx: *id002
                         end_col_offset: 13
-                        end_lineno: 13
+                        end_lineno: 12
                         id: print
-                        lineno: 13
+                        lineno: 12
                     keywords: []
-                    lineno: 13
+                    lineno: 12
             col_offset: 4
             end_col_offset: 46
-            end_lineno: 15
-            lineno: 12
+            end_lineno: 14
+            lineno: 11
             orelse:
             - !!python/object/apply:ast.Expr
               args:
@@ -380,8 +380,8 @@ refactored_py: !!python/object/apply:ast.Module
               state:
                 col_offset: 8
                 end_col_offset: 46
-                end_lineno: 15
-                lineno: 15
+                end_lineno: 14
+                lineno: 14
                 value: !!python/object/apply:ast.Call
                   args:
                   - null
@@ -396,13 +396,13 @@ refactored_py: !!python/object/apply:ast.Module
                       state:
                         col_offset: 14
                         end_col_offset: 45
-                        end_lineno: 15
+                        end_lineno: 14
                         kind: null
-                        lineno: 15
+                        lineno: 14
                         value: num1 is not greater than num2
                     col_offset: 8
                     end_col_offset: 46
-                    end_lineno: 15
+                    end_lineno: 14
                     func: !!python/object/apply:ast.Name
                       args:
                       - null
@@ -411,11 +411,11 @@ refactored_py: !!python/object/apply:ast.Module
                         col_offset: 8
                         ctx: *id002
                         end_col_offset: 13
-                        end_lineno: 15
+                        end_lineno: 14
                         id: print
-                        lineno: 15
+                        lineno: 14
                     keywords: []
-                    lineno: 15
+                    lineno: 14
             test: !!python/object/apply:ast.Compare
               args:
               - null
@@ -432,11 +432,11 @@ refactored_py: !!python/object/apply:ast.Module
                     col_offset: 14
                     ctx: *id002
                     end_col_offset: 18
-                    end_lineno: 12
+                    end_lineno: 11
                     id: num2
-                    lineno: 12
+                    lineno: 11
                 end_col_offset: 18
-                end_lineno: 12
+                end_lineno: 11
                 left: !!python/object/apply:ast.Name
                   args:
                   - null
@@ -445,17 +445,17 @@ refactored_py: !!python/object/apply:ast.Module
                     col_offset: 7
                     ctx: *id002
                     end_col_offset: 11
-                    end_lineno: 12
+                    end_lineno: 11
                     id: num1
-                    lineno: 12
-                lineno: 12
+                    lineno: 11
+                lineno: 11
                 ops:
                 - !!python/object/apply:ast.Gt []
         col_offset: 0
         decorator_list: []
         end_col_offset: 46
-        end_lineno: 15
-        lineno: 2
+        end_lineno: 14
+        lineno: 1
         name: main
         returns: null
         type_comment: null
